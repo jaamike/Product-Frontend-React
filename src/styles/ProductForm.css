@@ -1,0 +1,77 @@
+.product-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #1b2a17; /* Dark green background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #ffffff; /* White text for the title */
+    text-align: center;
+}
+
+.form-input {
+    margin-bottom: 16px;
+}
+
+.form-input input,
+.form-input textarea {
+    color: #ffffff; /* White text color for input fields */
+    background-color: #2e3b29; /* Slightly lighter green for input backgrounds */
+    border: 1px solid #4a5e40; /* Border color to match the theme */
+}
+
+.form-input label {
+    color: #ffffff; /* White text for labels */
+}
+
+.form-checkbox {
+    color: #a5d6a7; /* Light green for checkbox */
+}
+
+.form-checkbox-label {
+    color: #ffffff; /* White text for checkbox label */
+    margin-bottom: 16px;
+}
+
+.button-container {
+    display: flex;
+    gap: 16px; /* Space between buttons */
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.submit-button {
+    background-color: #388e3c; /* Darker green */
+    color: white; /* White text */
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #2c6b2f; /* Even darker green on hover */
+    transform: scale(1.02);
+}
+
+.delete-button {
+    background-color: #f44336; /* Red color for delete button */
+    color: white; /* White text */
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c62828; /* Darker red on hover */
+    transform: scale(1.02);
+}

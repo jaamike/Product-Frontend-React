@@ -1,0 +1,83 @@
+.product-list-container {
+    padding: 20px;
+    background-color: #2e3a2f; /* Dark green background */
+    min-height: 100vh;
+}
+
+.product-list-title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #e0f2f1; /* Light green for the title */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.add-product-button {
+    background-color: #004d40; /* Dark green */
+    color: #e0f2f1; /* Light green text */
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 12px 24px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-product-button:hover {
+    background-color: #003d33; /* Even darker green on hover */
+    transform: scale(1.05);
+}
+
+.add-product-button:active {
+    background-color: #002d25; /* Darkest green on click */
+}
+
+.product-card {
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    background-color: #4f5b40; /* Medium dark green for card background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.product-card.inactive {
+    background-color: #8f8383; /* Olive green for inactive cards */
+    border: 1px solid #4f5b40; /* Matching dark green border */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.product-image {
+    object-fit: cover;
+    border-bottom: 1px solid #2e3a2f; /* Dark green border below image */
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #0e7973; /* Light green text for title */
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #074b68; /* Light gray for description */
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: #337035; /* Light green for price */
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.product-stock {
+    color: #9e4b32; /* Light coral for stock quantity */
+}
